@@ -6,3 +6,5 @@ A lot of fixing has to be done. You can use all the code and change it however y
 Please do not use the images inside the files in a productive environment as they include copyrighted images.
 
 ## Enjoy!
+
+![Screenshot](search.png)
