@@ -11,4 +11,4 @@ Please do not use the images inside the files in a productive environment as the
 
 ![Screenshot](Autosuggest.png)
 
-![Screenshot](Images.png)
+![Screenshot](images.png)
