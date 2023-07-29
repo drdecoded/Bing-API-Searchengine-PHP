@@ -8,3 +8,7 @@ Please do not use the images inside the files in a productive environment as the
 ## Enjoy!
 
 ![Screenshot](search.png)
+
+![Screenshot](Autosuggest.png)
+
+![Screenshot](Images.png)
