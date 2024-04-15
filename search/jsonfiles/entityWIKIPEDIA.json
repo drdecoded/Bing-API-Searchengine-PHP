@@ -1,0 +1,1 @@
+{"_type": "ErrorResponse", "errors": [{"_type": "Error", "code": "InvalidRequest", "subCode": "ParameterInvalidValue", "message": "Parameter has invalid value.", "moreDetails":"Entity Search is not allowed for this market.", "parameter": "mkt", "value": "de-AT" }]}

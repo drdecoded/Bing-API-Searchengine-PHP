@@ -1,0 +1,300 @@
+.hd-logo{
+    position: absolute;
+    top: 5%;
+    left: 0.8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+.hd-logo span{
+    font-size: 25px;
+    color: rgb(46, 46, 46);
+}
+.hd-logo img{
+    height: 60px;
+    width: auto;
+}
+.hd-m-wr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.hd-m{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+.hd-n{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: fit-content;
+    width: 300px;
+    background-color: #fdfdfd;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    color: rgb(46, 46, 46);
+    box-shadow: 0px 0px 5px 0px #adadad;
+    scrollbar-width: none;
+    overflow: hidden;
+}
+.hd-b{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 70vh;
+    width: 70%;
+    background-color: #fdfdfd;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    color: rgb(46, 46, 46);
+    box-shadow: 0px 0px 5px 0px #adadad;
+    scrollbar-width: none;
+    overflow: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+    position: relative;
+    background: center no-repeat url('../../../src/public/logo-sm-bl.png');
+    background-size: 500px 400px;
+}
+.hd-b-la{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.774);
+    min-height: 100vh;
+    width: 100%;
+}
+.dark .hd-b{
+    background: center no-repeat url('../../../src/public/logo-sm-w.png');
+    background-size: 500px 400px;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 40%);
+}
+.dark .hd-b-la{
+    background-color:#202020c9;
+    color: rgb(240, 240, 240);
+}
+.hd-b::-webkit-scrollbar {
+    display: none;
+}
+.hd-btn{
+    padding: 12px;
+    padding-left: 16px;
+}
+.hd-btn-me{
+    padding: 12px;
+    padding-left: 28px;
+    display: none;
+}
+.hd-btn:hover,.hd-na:hover,.hd-btn-me:hover,.hd-na-mo:hover{
+    cursor: pointer;
+}
+.hd-btn:hover,.hd-btn-me:hover{
+    background-color: #93dfff;
+}
+.hd-na:hover,.hd-na-mo:hover{
+    background-color: #f6fcff;
+}
+.hd-b-wr{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+}
+.hd-na{
+    height: 200px;
+    width: 250px;
+    background-color: #fdfdfd;
+    border-width: 1px;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    color: rgb(46, 46, 46);
+    box-shadow: 0px 0px 5px 0px #adadad;
+    position: relative;
+}
+.hd-na-mo{
+    height: 50px;
+    width: 150px;
+    margin-bottom: 15px;
+    background-color: #fdfdfd;
+    border-width: 1px;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    color: rgb(46, 46, 46);
+    box-shadow: 0px 0px 5px 0px #adadad;
+    position: relative;
+}
+.hd-na-spa span{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top:30%;
+    text-align: center;
+}
+.hd-na-n{
+    height: 58vh;
+    width: 120%;
+    background-color: #fdfdfd;
+    border-width: 1px;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    color: rgb(46, 46, 46);
+    box-shadow: 0px 0px 5px 0px #dfdfdf;
+    display:none;
+    overflow: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+.hd-na-n::-webkit-scrollbar {
+    display: none;
+}
+.hd-na-n-mo{
+    display:none;
+}
+.hd-na-im img{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.hd-na-sp{
+    margin-top: 25px;
+    text-align: center;
+}
+.hd-m-back{
+    height: 40px;
+}
+.hd-m-back button{
+    position: absolute;
+    cursor: pointer;
+    margin-left: 12px;
+    margin-top: 12px;
+    border: 0;
+    height: 37px;
+    width: fit-content;
+    background-color: #f7f7f7;
+    color: rgb(66, 66, 66);
+    padding: 9px;
+    padding-right: 12px;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    box-shadow: 0px 0px 2px 1px #d1d1d1;
+    -moz-box-shadow: 0px 0px 2px 1px #d1d1d1;
+    -webkit-box-shadow: 0px 0px 2px 1px #d1d1d1;
+}
+.hd-n-back{
+    display: none;
+}
+.hd-wel-wr{
+    display: flex;
+    justify-content: center;
+}
+.hd-wel{
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 12px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px #adadad;
+    text-align: center;
+    background-color: #fdfdfd;
+}
+.d-faq-wr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.d-f-on-wr{
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    position: relative;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 12px;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px #adadad;
+    text-align: center;
+    background-color: #fdfdfd;
+}
+.dark .hd-logo span{
+    color: rgb(235, 235, 235);
+}
+.dark .hd-b,.dark .hd-n,.dark .hd-wel{
+    background-color: #363636;
+    color: rgb(195 195 195);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 40%);
+    border: none;
+}
+.dark .hd-btn:hover,.dark .hd-na:hover,.dark .hd-btn-me:hover,.dark .hd-na-mo:hover{
+    background-color: #005679;
+}
+.dark .hd-na,.dark .hd-na-mo{
+    background-color: #494949;
+    color: rgb(195 195 195);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 40%);
+    border: none;
+}
+.dark .hd-m-back button,.dark .hd-na-n{
+    background-color: #363636;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 40%);
+    border: none;
+    color: rgb(195 195 195);
+}
+@media only screen and (max-width: 1400px)
+{  
+    .hd-logo{
+        top: 1.2%;
+        left: 0.5%;
+    }
+    .hd-n{
+        display: none;
+    }
+    .hd-b{
+        margin: auto;
+        width: 90%;
+    }
+}
+@media only screen and (min-width: 600px)
+{  
+    .m-le-fl{
+        margin-top: 20px;
+    }
+    .m-le-ln-tg{
+        margin-top: 0;
+        margin-right: 20px;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    .hd-b-wr{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 350px)
+{  
+    .hd-logo span{
+        display: none;
+    }
+}
