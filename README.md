@@ -1,10 +1,10 @@
-# Bing-API-Searchengine-PHP
+# Bing-API-Searchengine-PHP (last-modified)
 
-## An old project on which I worked quit a long time ago. Since I no longer code in PHP/MySQL, I want to share it with you.
+## This search engine is an open-source project based on PHP and the Bing Search API. It is free to use and modify according to your needs. The codebase may require some adjustments and debugging to meet your specific requirements. We encourage contributions to improve its functionality and reliability.
 
-Free to use (Open source) search engine based on PHP and the Bing Search API. Some fixing has to be done but could save you some time if really in search of something like this. You can use all the code and change it however you need it. 
+Please be advised that the images included within the files are copyrighted and should not be used in a production environment.
 
-Please do not use the images inside the files in a productive environment as they include copyrighted images.
+It is recommended that you adapt this application to comply with the OWASP guidelines for secure coding practices to ensure a safe production environment. We do not assume any liability for the code, and it is your responsibility to fix any bugs and make necessary modifications. This software is provided for testing and conceptual purposes only.
 
 ## Enjoy!
 
