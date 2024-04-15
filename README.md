@@ -4,6 +4,8 @@
 
 I'm excited to share my custom-built search engine, designed with a complete user interface, auto-suggest functionality, and integration with the Bing API. This project is a comprehensive template for anyone interested in developing their own search engine technology.
 
+# Check youtube to get a taste of this project: https://www.youtube.com/watch?v=f1ESegWusNk
+
 Current Status:
 
 Outdated Implementation: The current version of the search engine is functional but outdated, which may affect performance and modern compatibility.
