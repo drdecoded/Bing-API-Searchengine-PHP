@@ -14,7 +14,7 @@ This repository serves as a foundational tool and a thought support ("Denkstütz
 
 I encourage developers, especially those with expertise in web security and search technologies, to contribute to evolving this project into a more secure and efficient platform. Let's collaborate to push the boundaries of what our search engines can achieve!
 
-#Please be advised that the images included within the files are copyrighted and should not be used in a production environment.
+##Please be advised that the images included within the files are copyrighted and should not be used in a production environment.
 
 It is recommended that you adapt this application to comply with the OWASP guidelines for secure coding practices to ensure a safe production environment. We do not assume any liability for the code, and it is your responsibility to fix any bugs and make necessary modifications. This software is provided for testing and conceptual purposes only.
 
